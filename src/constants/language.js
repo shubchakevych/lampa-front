@@ -1,6 +1,6 @@
 export const languagesList = {
-    en: {
-        label: "ENG",
-        value: "en",
-    },
+	en: {
+		label: 'ENG',
+		value: 'en',
+	},
 };

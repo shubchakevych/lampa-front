@@ -1,6 +1,6 @@
 const book = Object.freeze({
-    home: "/",
-    main: "/",
+	home: '/',
+	main: '/',
 });
 
 export default book;

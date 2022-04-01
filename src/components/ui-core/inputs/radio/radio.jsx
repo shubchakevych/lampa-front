@@ -1,9 +1,9 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
-import "./styles.scss";
+import './styles.scss';
 
 const Radio = (props) => {
-    return <div>Radio</div>;
+	return <div>Radio</div>;
 };
 
 Radio.propTypes = {};

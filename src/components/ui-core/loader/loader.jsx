@@ -1,9 +1,9 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
-import "./styles.scss";
+import './styles.scss';
 
 const Loader = (props) => {
-    return <div>Loader</div>;
+	return <div>Loader</div>;
 };
 
 Loader.propTypes = {};

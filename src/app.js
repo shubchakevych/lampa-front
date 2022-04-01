@@ -1,7 +1,7 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 const App = (props) => {
-  return <div>App</div>;
+	return <div>App</div>;
 };
 
 App.propTypes = {};

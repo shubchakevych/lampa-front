@@ -1,9 +1,9 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
-import "./styles.scss";
+import './styles.scss';
 
 const Select = (props) => {
-    return <div>Select</div>;
+	return <div>Select</div>;
 };
 
 Select.propTypes = {};

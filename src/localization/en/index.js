@@ -1,6 +1,6 @@
-import en from "./en.json";
+import en from './en.json';
 
 const translation = {
-    ...en,
+	...en,
 };
 export default translation;

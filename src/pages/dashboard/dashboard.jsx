@@ -1,9 +1,9 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
-import "./styles.scss";
+import './styles.scss';
 
 const Dashboard = (props) => {
-    return <div>Dashboard</div>;
+	return <div>Dashboard</div>;
 };
 
 Dashboard.propTypes = {};

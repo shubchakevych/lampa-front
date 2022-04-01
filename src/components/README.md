@@ -4,6 +4,9 @@ There should only be reusable components. For example: buttons, inputs, spinners
 UI-CORE folder created for the general components each as inputs, buttons and other small elements which can be reused.
 At the root of components folder should only be big reusable components which can have a children folders. For example: modals, charts, tables etc.
 
+!!! IMPORTANT !!! 
+If you will use default packages, you must describe props for each component!
+
 # About single component folder
 
 Each component should have 3 files (or more). Base 3 files are index.js (where we will reexport our component), component-name.jsx (our component) and styles.scss (our component styles).
