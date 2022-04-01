@@ -1,0 +1,3 @@
+# About constants folder
+
+There should only be global project constants. For example list of our routes, languages list, etc...

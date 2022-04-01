@@ -1,0 +1,67 @@
+$small-phone: 320px;
+$phone: 767px;
+$tablet: 1023px;
+$laptop: 1200px;
+$desktop: 1600px;
+$fullhd: 1921px;
+/*
+small-phone <320
+phone >767
+tablet-phone >1023
+tablet  768  > 1023
+tablet-laptop 768 > 1775
+laptop 1200>1775
+desktop-laptop 1200>
+desktop  1600>
+*/
+
+@mixin for-size($size) {
+  @if $size == small-phone {
+    @media screen and(max-width: $small-phone) {
+      @content;
+    }
+  } @else if $size == phone {
+    @media screen and(max-width: $phone) {
+      @content;
+    }
+  } @else if $size == tablet-phone {
+    @media screen and (max-width: $tablet) {
+      @content;
+    }
+  } @else if $size == tablet {
+    @media screen and(min-width: $phone) and(max-width: $tablet ) {
+      @content;
+    }
+  } @else if $size == tablet-laptop {
+    @media screen and(min-width: $phone) and(max-width: $laptop) {
+      @content;
+    }
+  } @else if $size == laptop {
+    @media screen and(min-width: $tablet) and(max-width: $desktop) {
+      @content;
+    }
+  } @else if $size == desktop-laptop {
+    @media screen and(min-width: $laptop) {
+      @content;
+    }
+  } @else if $size == desktop {
+    @media screen and(min-width: $desktop) {
+      @content;
+    }
+  } @else if $size == fullhd {
+    @media screen and(min-width: $fullhd) {
+      @content;
+    }
+  } @else if $size == xl-only {
+    @media (min-width: 1800px) {
+      @content;
+    }
+  }
+}
+
+@mixin text-size($font-style, $font-weight, $font-size, $line-height) {
+  font-style: $font-style;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+}

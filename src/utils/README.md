@@ -1,0 +1,3 @@
+# About utils folder
+
+There should only be global project utils. For example: string methods, array methods, global methods which can be reused etc...
